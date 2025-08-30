@@ -1,0 +1,22 @@
+#countingNumber{
+    display: block;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 10em;
+}
+#buttonCtn{
+    text-align: center;
+}
+.button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: hsl(348, 67%, 54%);
+    cursor:pointer;
+    color: hsl(51, 100%, 61%);
+    transition: background-color 0.50s;
+    
+}
+.button:hover{
+    background-color: hsl(348, 59%, 39%);
+       color: hsl(0, 0%, 99%);
+}
